@@ -1,0 +1,90 @@
+{
+  "business_name": "CityScape Garage Doors",
+  "phone_costa_mesa": "(949) 515-8363",
+  "phone_mission_viejo": "(949) 274-7995",
+  "phone_emergency": "(949) 400-9509",
+  "email": "info@cityscapegaragedoors.com",
+  "addresses": [
+    {
+      "label": "Costa Mesa",
+      "street": "2949 Randolph Ave. Unit E",
+      "city": "Costa Mesa",
+      "state": "CA",
+      "zip": "92626"
+    },
+    {
+      "label": "Mission Viejo",
+      "street": "24000 Alicia Pkwy #17, Ste. 404",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zip": "92691"
+    }
+  ],
+  "hours": {
+    "monday_friday": "7am - 7pm",
+    "saturday": "7am - 3pm"
+  },
+  "about_text": "Over 28 years of expertise in garage door services. Locally owned, licensed, and fully insured. Our mission is providing honest, reliable garage door services that exceed our customers' expectations.",
+  "services": [
+    "Garage Door Repair & Installation",
+    "Broken Spring Replacement (Same-Day Service)",
+    "Sectional Door Repair",
+    "Garage Door Opener Repair & Replacement",
+    "One-Piece Door Repair",
+    "Spring Replacement",
+    "Emergency Repairs",
+    "Junk Hauling & Debris Removal",
+    "New Hinges, Rollers & Cable Installation",
+    "Weather Seal Replacement",
+    "Wood Panel Repairs"
+  ],
+  "testimonials": [
+    {
+      "text": "Same day service, excellent work and fair price... These guys are stellar.",
+      "source": "Customer Review"
+    },
+    {
+      "text": "Called at 8am and they were able to come at 11:30, while accommodating my afternoon schedule.",
+      "source": "Customer Review"
+    }
+  ],
+  "certifications": [
+    "CA License #804592",
+    "Bonded and Insured",
+    "International Door Association (IDA) Member",
+    "California Operator and Door Association (CODA) Member",
+    "Featured in Expertise.com Awards"
+  ],
+  "brand_partnerships": ["CHI", "Martin", "Amarr", "Liftmaster", "Marantec", "Genie", "Ranch House Doors", "Unique"],
+  "social_links": {
+    "instagram": "https://www.instagram.com/cityscapegaragedoorsjp/",
+    "facebook": "https://www.facebook.com/cityscapejp",
+    "twitter": "https://twitter.com/CityScapeGD",
+    "youtube": "https://www.youtube.com/CityScapeGD",
+    "yelp": "https://www.yelp.com/biz/cityscape-garage-doors-costa-mesa-4"
+  },
+  "payment_methods": ["Visa", "MasterCard", "American Express", "Bitcoin", "Litecoin"],
+  "brand_colors": {
+    "primary": "#adb248",
+    "primary_dark": "#8a9038",
+    "dark": "#1a1a1a",
+    "white": "#ffffff"
+  },
+  "original_site": "https://cityscapegaragedoors.com/",
+  "images_downloaded": [
+    "assets/images/hero-emergency.jpeg",
+    "assets/images/hero.webp",
+    "assets/images/junk-hauling.jpeg",
+    "assets/images/garage-door-main.jpg",
+    "assets/images/wood-garage-door.jpg",
+    "assets/images/liftmaster-opener.jpg",
+    "assets/images/garage-bay.jpg",
+    "assets/images/spring-repair.jpg",
+    "assets/images/new-installation.jpg",
+    "assets/images/oc-repair.jpg",
+    "assets/images/new-openers.jpg",
+    "assets/images/joe-pinkston.jpg",
+    "assets/images/ida-coda-logos.png",
+    "assets/images/slide-drawings.png"
+  ]
+}
