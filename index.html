@@ -17,13 +17,16 @@
   <link rel="preload" as="image" href="assets/images/hero.webp" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
 
-  <!-- Fonts -->
+  <!-- Fonts (async load to avoid render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap&font-display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap&font-display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap&font-display=swap" /></noscript>
 
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <!-- Defer animations.css to avoid render-blocking -->
+  <link rel="stylesheet" href="css/animations.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="css/animations.css" /></noscript>
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -161,7 +164,7 @@
         <div class="services-grid">
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/spring-repair.jpg" alt="Garage door spring repair service" width="400" height="267" loading="lazy" />
+              <img src="assets/images/spring-repair.webp" alt="Garage door spring repair service" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>Spring Replacement</h3>
@@ -170,7 +173,7 @@
           </div>
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/liftmaster-opener.jpg" alt="LiftMaster garage door opener installation" width="400" height="267" loading="lazy" />
+              <img src="assets/images/liftmaster-opener.webp" alt="LiftMaster garage door opener installation" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>Opener Repair &amp; Replacement</h3>
@@ -179,7 +182,7 @@
           </div>
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/new-installation.jpg" alt="New garage door installation" width="400" height="267" loading="lazy" />
+              <img src="assets/images/new-installation.webp" alt="New garage door installation" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>New Door Installation</h3>
@@ -188,7 +191,7 @@
           </div>
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/garage-door-main.jpg" alt="Garage door repair service" width="400" height="267" loading="lazy" />
+              <img src="assets/images/garage-door-main.webp" alt="Garage door repair service" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>Garage Door Repair</h3>
@@ -197,7 +200,7 @@
           </div>
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/hero-emergency.jpeg" alt="After-hours emergency garage door service" width="400" height="267" loading="lazy" />
+              <img src="assets/images/hero-emergency.webp" alt="After-hours emergency garage door service" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>Emergency Service</h3>
@@ -206,7 +209,7 @@
           </div>
           <div class="service-card reveal">
             <div class="service-img-wrap">
-              <img src="assets/images/junk-hauling.jpeg" alt="Junk hauling and debris removal" width="400" height="267" loading="lazy" />
+              <img src="assets/images/junk-hauling.webp" alt="Junk hauling and debris removal" width="400" height="267" loading="lazy" />
             </div>
             <div class="service-body">
               <h3>Junk Hauling &amp; Removal</h3>
@@ -221,7 +224,7 @@
     <section class="about" id="about">
       <div class="container about-inner">
         <div class="about-image reveal">
-          <img src="assets/images/wood-garage-door.jpg" alt="Beautiful wood garage door installed by CityScape" width="580" height="380" loading="lazy" />
+          <img src="assets/images/wood-garage-door.webp" alt="Beautiful wood garage door installed by CityScape" width="580" height="380" loading="lazy" />
         </div>
         <div class="about-content">
           <div class="section-tag reveal">About CityScape</div>
@@ -230,7 +233,7 @@
           <p class="reveal">We carry top brands including CHI, Martin, Amarr, LiftMaster, Marantec, and Genie. As an International Door Association (IDA) member and California Operator and Door Association (CODA) member, we are held to the highest industry standards.</p>
           <div class="certs reveal">
             <div class="cert-item">
-              <img src="assets/images/ida-coda-logos.png" alt="International Door Association and California Operator and Door Association member logos" width="234" height="50" loading="lazy" />
+              <img src="assets/images/ida-coda-logos.webp" alt="International Door Association and California Operator and Door Association member logos" width="234" height="50" loading="lazy" />
             </div>
           </div>
           <ul class="about-checks reveal">
